@@ -1,0 +1,21 @@
+# Токен и прочие секреты — никогда не должны попадать в репозиторий
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
